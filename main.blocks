@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="$q.K5~CN@,gbP(t(Gv^:">Player</variable><variable type="KIND_SpriteKind" id="n{uJb|T:?F:s|:{!My,F">Player</variable><variable type="KIND_SpriteKind" id="W|+#z3HZ$X%Lm7IN;Qn`">Projectile</variable><variable type="KIND_SpriteKind" id="+n4TV@2F2QD@+k=83q}`">Food</variable><variable type="KIND_SpriteKind" id="7c$%Dlv1KYn*{{pmB58!">Enemy</variable></variables><block type="pxt-on-start" id="eZ}V([TFQg]QTkynIAW(" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="7M_q#h.@xlkY8X+U+AM="><field name="VAR" id="$q.K5~CN@,gbP(t(Gv^:">Player</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="=~A;|O{Z8%p;P:=*U@VT"><value name="img"><shadow type="screen_image_picker" id="P`sK]{*An;Cs9.5[ob?K"><field name="img">img`
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+f f f f f f f 7 7 f f f f f f f 
+f f f f f f f 7 7 f f f f f f f 
+f f f f f f f 7 7 f f f f f f f 
+f f f f f f f 7 7 f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+7 7 7 7 7 7 f f f f 7 7 7 7 7 7 
+7 7 7 7 7 7 f f f f 7 7 7 7 7 7 
+7 7 7 7 7 7 f f f f 7 7 7 7 7 7 
+7 7 7 7 7 7 f f f f 7 7 7 7 7 7 
+7 7 7 7 7 7 f f f f 7 7 7 7 7 7 
+7 7 7 7 7 7 f f f f 7 7 7 7 7 7 
+7 7 7 7 7 7 f f f f 7 7 7 7 7 7 
+7 7 7 7 7 7 f f f f 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"P`sK]{*An;Cs9.5[ob?K"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="DwZ[Rc=(1py-S0Z|O)Al"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="T.8PtCLQ@*/(y=?vp]C^"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><shadow type="variables_get" id="tJYTTY3SPMHa/#eBMilJ"><field name="VAR" id="$q.K5~CN@,gbP(t(Gv^:">Player</field></shadow></value><next><block type="tilemap_editor" id="K)KpM!bLMn0F)m28`Ur:"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data><next><block type="camerafollow" id="wLL=BQ9HXW9)dwVbtRW0"><value name="sprite"><shadow type="variables_get" id="m8?G@zXJ4C,R+F,evzjZ"><field name="VAR" id="$q.K5~CN@,gbP(t(Gv^:">Player</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
